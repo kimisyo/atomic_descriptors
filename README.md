@@ -1,11 +1,29 @@
 # atomic_descriptors
 Calculate the following atomic descriptors.
--
--
--
--
 
+CDK
+- EffectiveAtomPolarizability
+- StabilizationPlusCharge
+- SigmaElectronegativity
+- PiElectronegativity
+- PartialSigmaCharge
+- PartialTChargeMMFF94
+- AtomDegree
+- AtomValance
+- AtomHybridizationVSEPR
+- AtomHybridization
 
+Others
+- longestMaxTopInMolecule
+  Maximum number of bonds (topological distance) between two atoms in the molecule.
+- highestMaxTopInMolecule
+  Maximum number of bonds (topological distance) between two particular atoms in the molecule.
+row).
+- diffSPAN
+ longestMaxTopDistInMolecule - highestMaxTopDistInMatrixRow
+- relSPAN
+ highestMaxTopDistInMatrixRow / longestMaxTopDistInMolecule
+ 
 # required
 - CDK 2.2
 
